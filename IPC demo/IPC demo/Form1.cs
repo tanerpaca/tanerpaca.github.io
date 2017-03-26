@@ -22,5 +22,10 @@ namespace IPC_demo
             Settings frm = new Settings();
             frm.Show();
         }
+
+        private void closeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
